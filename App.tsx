@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import AuthStack from "./stacks/auth";
+import ApplicationStack from "./stacks";
 import {
   useFonts,
   Inter_100Thin,
@@ -44,7 +44,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <AuthStack />
+      <ApplicationStack />
     </NavigationContainer>
   );
 }
